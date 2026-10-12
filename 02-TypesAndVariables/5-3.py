@@ -9,3 +9,6 @@ c = float(input('c = '))
 
 volume = a * b * c
 surface_area = (a * b) * 2 + (a * c) * 2 + (b * c) * 2
+
+print("Volume =", volume)
+print("Surface area =", surface_area)
