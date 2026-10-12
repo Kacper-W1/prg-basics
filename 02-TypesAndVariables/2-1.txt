@@ -1,0 +1,8 @@
++ addition
+* multiplication
+** Exponentiation
+/ division
+// division down to the nearest whole number
+% giving a remainder of division
+> comparing numers
+<= comparing numers
