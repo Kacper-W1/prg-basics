@@ -5,11 +5,11 @@ def time_string(hours, minutes, time_format):
     if time_format == 24:
         string = str(hours) + ":" + str(minutes)
     elif time_format == 12:
-        hours = abs(hours - 12)
+        if hours >= 12:
+            hours = abs(hours - 12)
 
         if hours == 0:
-            hours = 00
-            print("t")
+            hours = "00"
         
         string = str(hours) + ":" + str(minutes)
 
